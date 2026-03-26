@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("QOTS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+a8a1205d61b05d57196dec76c6aeef5500ca4feb")]
 [assembly: System.Reflection.AssemblyProductAttribute("QOTS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("QOTS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

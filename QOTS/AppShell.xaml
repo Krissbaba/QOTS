@@ -3,12 +3,16 @@
     x:Class="QOTS.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:QOTS"
-    Title="QOTS">
+    xmlns:local="clr-namespace:QOTS">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+	<TabBar>
+		<ShellContent 
+            Title="Idézetek" 
+            ContentTemplate="{DataTemplate local:MainPage}" />
+
+		<ShellContent 
+            Title="Kedvencek" 
+            ContentTemplate="{DataTemplate local:FavoritesPage}" />
+	</TabBar>
 
 </Shell>

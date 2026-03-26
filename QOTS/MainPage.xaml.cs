@@ -7,9 +7,10 @@ public class Quote
 	[PrimaryKey, AutoIncrement]
 	public int Id { get; set; }
 
-	public string Text { get; set; }
-	public string BookTitle { get; set; }
-	public string Author { get; set; }
+	public string Text { get; set; } = "";
+	public string BookTitle { get; set; } = "";
+	public string Author { get; set; } = "";
+
 	public int PageNumber { get; set; }
 
 	public bool IsFavorite { get; set; }
