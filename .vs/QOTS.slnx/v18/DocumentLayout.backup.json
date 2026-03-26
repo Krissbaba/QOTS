@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\favoritespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\favoritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\favoritespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +42,53 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "FavoritesPage.xaml.cs",
+              "DocumentMoniker": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\FavoritesPage.xaml.cs",
+              "RelativeDocumentMoniker": "QOTS\\FavoritesPage.xaml.cs",
+              "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\FavoritesPage.xaml.cs",
+              "RelativeToolTip": "QOTS\\FavoritesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T19:32:32.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FavoritesPage.xaml",
+              "DocumentMoniker": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\FavoritesPage.xaml",
+              "RelativeDocumentMoniker": "QOTS\\FavoritesPage.xaml",
+              "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\FavoritesPage.xaml",
+              "RelativeToolTip": "QOTS\\FavoritesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-26T19:31:43.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\AppShell.xaml",
+              "RelativeDocumentMoniker": "QOTS\\AppShell.xaml",
+              "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\AppShell.xaml",
+              "RelativeToolTip": "QOTS\\AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-26T19:24:42.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "DatabaseService.cs",
               "DocumentMoniker": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\DatabaseService.cs",
               "RelativeDocumentMoniker": "QOTS\\DatabaseService.cs",
               "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\DatabaseService.cs",
               "RelativeToolTip": "QOTS\\DatabaseService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T13:45:43.441Z"
+              "WhenOpened": "2026-03-25T13:45:43.441Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,19 +98,20 @@
               "RelativeDocumentMoniker": "QOTS\\MainPage.xaml.cs",
               "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\MainPage.xaml.cs",
               "RelativeToolTip": "QOTS\\MainPage.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAA2wCsAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAwGoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-25T13:30:36.167Z"
+              "WhenOpened": "2026-03-25T13:30:36.167Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\MainPage.xaml",
               "RelativeDocumentMoniker": "QOTS\\MainPage.xaml",
               "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\MainPage.xaml",
               "RelativeToolTip": "QOTS\\MainPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-03-25T13:28:14.221Z",
               "EditorCaption": ""

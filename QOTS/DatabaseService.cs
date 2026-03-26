@@ -14,6 +14,11 @@ namespace QOTS
 			await _db.UpdateAsync(quote);
 		}
 
+		public async Task DeleteQuoteAsync(Quote quote)
+		{
+			await _db.DeleteAsync(quote);
+		}
+
 		public async Task Init()
 		{
 			if (_db != null)

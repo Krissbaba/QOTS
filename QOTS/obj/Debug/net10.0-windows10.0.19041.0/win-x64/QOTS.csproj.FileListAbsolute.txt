@@ -521,3 +521,4 @@ D:\C#Oktáv\C#\Console\GyakorloFeladatok\QOTS\QOTS\bin\Debug\net10.0-windows10.0
 D:\C#Oktáv\C#\Console\GyakorloFeladatok\QOTS\QOTS\bin\Debug\net10.0-windows10.0.19041.0\win-x64\SQLitePCLRaw.core.dll
 D:\C#Oktáv\C#\Console\GyakorloFeladatok\QOTS\QOTS\bin\Debug\net10.0-windows10.0.19041.0\win-x64\SQLitePCLRaw.provider.e_sqlite3.dll
 D:\C#Oktáv\C#\Console\GyakorloFeladatok\QOTS\QOTS\bin\Debug\net10.0-windows10.0.19041.0\win-x64\e_sqlite3.dll
+D:\C#Oktáv\C#\Console\GyakorloFeladatok\QOTS\QOTS\obj\Debug\net10.0-windows10.0.19041.0\win-x64\QOTS.sourcelink.json

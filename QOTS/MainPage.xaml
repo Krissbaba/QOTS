@@ -15,9 +15,15 @@
 
 		<Entry x:Name="AuthorEntry" Placeholder="Szerző" />
 
+		<Entry x:Name="TagsEntry" Placeholder="Tagek (pl: motiváció, élet)" />
+
 		<Entry x:Name="PageEntry" Placeholder="Oldalszám" Keyboard="Numeric" />
 
 		<Button Text="Mentés" Clicked="OnSaveClicked"/>
+
+		<Entry x:Name="SearchEntry" 
+       Placeholder="🔍 Keresés..." 
+       TextChanged="OnSearchTextChanged"/>
 
 		<Label Text="Idézetek:" FontSize="20"/>
 
@@ -28,10 +34,15 @@
 						<VerticalStackLayout>
 							<Label Text="{Binding Text}" FontAttributes="Bold"/>
 							<Label Text="{Binding BookInfo}" FontSize="12"/>
+							<Label Text="{Binding Tags}" FontSize="12" TextColor="Gray"/>
 
 							<Button Text="⭐ Kedvenc"
                             Clicked="OnFavoriteClicked"
                             CommandParameter="{Binding .}" />
+
+							<Button Text="🗑️ Törlés"
+							Clicked="OnDeleteClicked"
+							CommandParameter="{Binding .}" />
 						</VerticalStackLayout>
 					</Border>
 				</DataTemplate>

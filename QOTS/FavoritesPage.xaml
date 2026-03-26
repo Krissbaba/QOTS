@@ -15,6 +15,7 @@
 						<VerticalStackLayout>
 							<Label Text="{Binding Text}" FontAttributes="Bold"/>
 							<Label Text="{Binding BookInfo}" FontSize="12"/>
+							<Label Text="{Binding Tags}" FontSize="12" TextColor="Gray"/>
 						</VerticalStackLayout>
 					</Border>
 				</DataTemplate>
