@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|d:\\c#okt\u00E1v\\c#\\console\\gyakorlofeladatok\\qots\\qots\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DE1F5F8-7BD3-1CC4-F8CA-A4076F307E71}|QOTS\\QOTS.csproj|solutionrelative:qots\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "QOTS\\DatabaseService.cs",
+              "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\DatabaseService.cs",
+              "RelativeToolTip": "QOTS\\DatabaseService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:45:43.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "QOTS\\MainPage.xaml.cs",
+              "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\MainPage.xaml.cs",
+              "RelativeToolTip": "QOTS\\MainPage.xaml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA2wCsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T13:30:36.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\MainPage.xaml",
+              "RelativeDocumentMoniker": "QOTS\\MainPage.xaml",
+              "ToolTip": "D:\\C#Okt\u00E1v\\C#\\Console\\GyakorloFeladatok\\QOTS\\QOTS\\MainPage.xaml",
+              "RelativeToolTip": "QOTS\\MainPage.xaml",
+              "ViewState": "AgIAABMAAAAAAAAAAIA0wBoAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-25T13:28:14.221Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

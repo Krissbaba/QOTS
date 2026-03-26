@@ -1,0 +1,43 @@
+﻿<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="QOTS.MainPage">
+
+	<VerticalStackLayout Padding="20" Spacing="10">
+
+		<Label Text="Idézet hozzáadása" 
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+		<Entry x:Name="QuoteEntry" Placeholder="Írd be az idézetet" />
+
+		<Entry x:Name="BookTitleEntry" Placeholder="Könyv címe" />
+
+		<Entry x:Name="AuthorEntry" Placeholder="Szerző" />
+
+		<Entry x:Name="PageEntry" Placeholder="Oldalszám" Keyboard="Numeric" />
+
+		<Button Text="Mentés" Clicked="OnSaveClicked"/>
+
+		<Label Text="Idézetek:" FontSize="20"/>
+
+		<CollectionView x:Name="QuotesList">
+			<CollectionView.ItemTemplate>
+				<DataTemplate>
+					<Border Stroke="Gray" StrokeThickness="1" Padding="10">
+						<VerticalStackLayout>
+							<Label Text="{Binding Text}" FontAttributes="Bold"/>
+							<Label Text="{Binding BookInfo}" FontSize="12"/>
+
+							<Button Text="⭐ Kedvenc"
+                            Clicked="OnFavoriteClicked"
+                            CommandParameter="{Binding .}" />
+						</VerticalStackLayout>
+					</Border>
+				</DataTemplate>
+			</CollectionView.ItemTemplate>
+		</CollectionView>
+
+	</VerticalStackLayout>
+
+</ContentPage>
