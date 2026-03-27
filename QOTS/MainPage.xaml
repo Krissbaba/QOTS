@@ -25,9 +25,15 @@
        Placeholder="🔍 Keresés..." 
        TextChanged="OnSearchTextChanged"/>
 
+		<Button x:Name="SaveButton"
+		Text="Mentés"
+		Clicked="OnSaveClicked" />
+
 		<Label Text="Idézetek:" FontSize="20"/>
 
-		<CollectionView x:Name="QuotesList">
+		<CollectionView x:Name="QuotesList"
+						SelectionMode="Single"
+						SelectionChanged="OnQuoteSelected">
 			<CollectionView.ItemTemplate>
 				<DataTemplate>
 					<Border Stroke="Gray" StrokeThickness="1" Padding="10">
@@ -40,9 +46,10 @@
                             Clicked="OnFavoriteClicked"
                             CommandParameter="{Binding .}" />
 
-							<Button Text="🗑️ Törlés"
+								<Button Text="🗑️ Törlés"
 							Clicked="OnDeleteClicked"
 							CommandParameter="{Binding .}" />
+
 						</VerticalStackLayout>
 					</Border>
 				</DataTemplate>

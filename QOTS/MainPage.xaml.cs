@@ -22,6 +22,7 @@ namespace QOTS
 		List<Quote> allQuotes = new List<Quote>();
 		List<Quote> quotes = new List<Quote>();
 		DatabaseService database = new DatabaseService();
+		Quote selectedQuote = null;
 
 		public MainPage()
 		{
@@ -42,26 +43,64 @@ namespace QOTS
 			});
 		}
 
+		private void OnQuoteSelected(object sender, SelectionChangedEventArgs e)
+		{
+			selectedQuote = e.CurrentSelection.FirstOrDefault() as Quote;
+
+			if (selectedQuote == null)
+				return;
+
+			// mezők kitöltése
+			QuoteEntry.Text = selectedQuote.Text;
+			BookTitleEntry.Text = selectedQuote.BookTitle;
+			AuthorEntry.Text = selectedQuote.Author;
+			PageEntry.Text = selectedQuote.PageNumber.ToString();
+			TagsEntry.Text = selectedQuote.Tags;
+
+			SaveButton.Text = "Frissítés";
+		}
+
 		private async void OnSaveClicked(object sender, EventArgs e)
 		{
-			var quote = new Quote
+			if (selectedQuote != null)
 			{
-				Text = QuoteEntry.Text,
-				BookTitle = BookTitleEntry.Text,
-				Author = AuthorEntry.Text,
-				PageNumber = int.TryParse(PageEntry.Text, out int page) ? page : 0,
-				Tags = TagsEntry.Text ?? ""
-			};
+				//  UPDATE
+				selectedQuote.Text = QuoteEntry.Text;
+				selectedQuote.BookTitle = BookTitleEntry.Text;
+				selectedQuote.Author = AuthorEntry.Text;
+				selectedQuote.PageNumber = int.TryParse(PageEntry.Text, out int page) ? page : 0;
+				selectedQuote.Tags = TagsEntry.Text ?? "";
 
-			await database.AddQuoteAsync(quote);
+
+				await database.UpdateQuoteAsync(selectedQuote);
+
+				selectedQuote = null;
+			}
+			else
+			{
+				//  INSERT
+				var quote = new Quote
+				{
+					Text = QuoteEntry.Text,
+					BookTitle = BookTitleEntry.Text,
+					Author = AuthorEntry.Text,
+					PageNumber = int.TryParse(PageEntry.Text, out int page) ? page : 0,
+					Tags = TagsEntry.Text ?? ""
+				};
+
+				await database.AddQuoteAsync(quote);
+			}
 
 			LoadQuotes();
 
+			// mezők törlése
 			QuoteEntry.Text = "";
 			BookTitleEntry.Text = "";
 			AuthorEntry.Text = "";
 			PageEntry.Text = "";
 			TagsEntry.Text = "";
+
+			SaveButton.Text = "Mentés";
 		}
 
 		private async void OnDeleteClicked(object sender, EventArgs e)
