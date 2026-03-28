@@ -3,59 +3,99 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="QOTS.MainPage">
 
-	<VerticalStackLayout Padding="20" Spacing="10">
+	<Grid RowDefinitions="Auto,Auto,Auto,*" RowSpacing="10" Padding="20">
 
-		<Label Text="Idézet hozzáadása" 
-               FontSize="24"
-               HorizontalOptions="Center" />
+		<!-- Cím -->
+		<Label Text="📚 Idézetgyűjtő"
+               FontSize="28"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Grid.Row="0"/>
 
-		<Entry x:Name="QuoteEntry" Placeholder="Írd be az idézetet" />
+		<!-- INPUT (SCROLLAL!) -->
+		<ScrollView Grid.Row="1">
+			<Border Stroke="#ddd" StrokeThickness="1" Padding="10">
+				<VerticalStackLayout Spacing="10">
 
-		<Entry x:Name="BookTitleEntry" Placeholder="Könyv címe" />
+					<Entry x:Name="QuoteEntry" Placeholder="Idézet..." />
+					<Entry x:Name="BookTitleEntry" Placeholder="Könyv címe" />
+					<Entry x:Name="AuthorEntry" Placeholder="Szerző" />
+					<Entry x:Name="TagsEntry" Placeholder="Tagek (pl: motiváció)" />
+					<Entry x:Name="PageEntry" Placeholder="Oldalszám" Keyboard="Numeric" />
 
-		<Entry x:Name="AuthorEntry" Placeholder="Szerző" />
+					<Button x:Name="SaveButton"
+                            Text="Mentés"
+                            BackgroundColor="#4CAF50"
+                            TextColor="White"
+                            CornerRadius="10"
+                            Clicked="OnSaveClicked"/>
 
-		<Entry x:Name="TagsEntry" Placeholder="Tagek (pl: motiváció, élet)" />
+				</VerticalStackLayout>
+			</Border>
+		</ScrollView>
 
-		<Entry x:Name="PageEntry" Placeholder="Oldalszám" Keyboard="Numeric" />
+		<!-- KERESŐ -->
+		<Entry x:Name="SearchEntry"
+               Placeholder="🔍 Keresés..."
+               BackgroundColor="#f5f5f5"
+               Margin="0,10"
+               Grid.Row="2"
+               TextChanged="OnSearchTextChanged"/>
 
-		<Button Text="Mentés" Clicked="OnSaveClicked"/>
-
-		<Entry x:Name="SearchEntry" 
-       Placeholder="🔍 Keresés..." 
-       TextChanged="OnSearchTextChanged"/>
-
-		<Button x:Name="SaveButton"
-		Text="Mentés"
-		Clicked="OnSaveClicked" />
-
-		<Label Text="Idézetek:" FontSize="20"/>
-
+		<!-- LISTA -->
 		<CollectionView x:Name="QuotesList"
-						SelectionMode="Single"
-						SelectionChanged="OnQuoteSelected">
+                        Grid.Row="3">
+
 			<CollectionView.ItemTemplate>
 				<DataTemplate>
-					<Border Stroke="Gray" StrokeThickness="1" Padding="10">
-						<VerticalStackLayout>
-							<Label Text="{Binding Text}" FontAttributes="Bold"/>
-							<Label Text="{Binding BookInfo}" FontSize="12"/>
-							<Label Text="{Binding Tags}" FontSize="12" TextColor="Gray"/>
+					<SwipeView Threshold="50">
 
-							<Button Text="⭐ Kedvenc"
-                            Clicked="OnFavoriteClicked"
-                            CommandParameter="{Binding .}" />
+						<!-- JOBBRA SWIPE = TÖRLÉS -->
+						<SwipeView.RightItems>
+							<SwipeItems Mode="Execute">
+								<SwipeItem Text="Törlés"
+                                           BackgroundColor="Red"
+                                           Invoked="OnDeleteClicked"
+                                           CommandParameter="{Binding .}" />
+							</SwipeItems>
+						</SwipeView.RightItems>
 
-								<Button Text="🗑️ Törlés"
-							Clicked="OnDeleteClicked"
-							CommandParameter="{Binding .}" />
+						<!-- KÁRTYA -->
+						<Border Stroke="#eee" 
+                                StrokeThickness="1" 
+                                Padding="12" 
+                                Margin="0,5"
+                                BackgroundColor="White">
 
-						</VerticalStackLayout>
-					</Border>
+							<VerticalStackLayout Spacing="6">
+
+								<Label Text="{Binding Text}" 
+                                       FontAttributes="Bold"
+                                       FontSize="16"/>
+
+								<Label Text="{Binding BookInfo}" 
+                                       FontSize="12"
+                                       TextColor="Gray"/>
+
+								<Label Text="{Binding Tags}" 
+                                       FontSize="12"
+                                       TextColor="#888"/>
+
+								<Button Text="⭐"
+                                        BackgroundColor="#FFD700"
+                                        Clicked="OnFavoriteClicked"
+                                        CommandParameter="{Binding .}" />
+
+							</VerticalStackLayout>
+
+						</Border>
+
+					</SwipeView>
 				</DataTemplate>
 			</CollectionView.ItemTemplate>
+
 		</CollectionView>
 
-	</VerticalStackLayout>
+	</Grid>
 
 </ContentPage>
